@@ -1,0 +1,402 @@
+body{
+    font-family: "open sans", sans-serif;
+    font-size: 15px;
+    background-color: #f9f9f9;
+}
+
+body.debug{
+    border: dashed;
+    border-color: red;
+    border-width: 1px;
+}
+
+/*Define la estructura del menú*/
+nav{
+    display: block;
+    margin: auto;
+    border: 0px solid #222;
+    clear: both;
+}
+
+/*Define el estilo de la lista no ordenada*/
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+/*Define el estilo de la lista no ordenada después de que el mouse pase encima de esta*/
+nav ul:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/*Se definen los elementos que lleva la lista no ordenada así como sus propiedades*/
+nav li {
+    position: relative;
+    float: left;
+    list-style-type: none;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    box-shadow: 3px 2px 10px;
+}
+
+nav li.uno {
+    position: relative;
+    float: left;
+    list-style-type: none;
+    background-color: #0150A0;
+    width: 16.5%;
+}
+
+nav li.uno a{
+    text-align: center;
+    color:#fff;
+    transition:.4s;
+}
+
+nav li.uno:hover a{
+    background-color: #034;
+    text-align: center;
+    color:#ffffff;
+}
+
+nav li.dos {
+    position: relative;
+    float: left;
+    list-style-type: none;
+    background-color: #069;
+    width: 16.5%;
+}
+
+nav li.dos a{
+    text-align: center;
+    color:#ffffff;
+}
+
+nav ul ul a.dos{
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+    background-color: #069;
+    text-align: center;
+    color:#ffffff;
+}
+
+nav li.ultimodos a {
+    padding: 10px;
+    border-right: none;
+    background-color: #069;
+    text-align: center;
+    color:#ffffff;
+}
+
+nav ul ul a.dos:hover {
+    background-color: #036;
+    text-align: center;
+    color:#ffffff;
+}
+
+nav li.ultimodos:hover a {
+    border-right: none;
+    background-color: #036;
+    text-align: center;
+    color:#ffffff;
+}
+
+nav li.tres {
+    position: relative;
+    float: left;
+    list-style-type: none;
+    background-color: #099;
+    width: 16.5%; 
+}
+
+nav li.tres a{
+    text-align: center;
+    color:#fff;
+}
+
+nav ul ul a.tres{
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+    background-color: #099;
+    transition: 1s;
+}
+
+nav li.ultimotres a {
+    padding: 10px;
+    border-right: none;
+    background-color: #099;
+}
+
+nav ul ul a.tres:hover {
+    background-color: #066;
+}
+
+nav li.ultimotres:hover a {
+    border-right: none;
+    background-color: #066;
+}
+
+nav li.cuatro {
+    position: relative;
+    float: left;
+    list-style-type: none;
+    background-color: #396;
+    width: 16.5%;
+}
+
+nav li.cuatro a{
+    text-align: center;
+    color:#ffffff;
+}
+
+nav ul ul a.cuatro{
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+    background-color: #396;
+}
+
+nav li.ultimocuatro a {
+    padding: 10px;
+    border-right: none;
+    background-color: #396;
+}
+
+nav ul ul a.cuatro:hover {
+    background-color: #366;
+}
+
+nav li.ultimocuatro:hover a {
+    border-right: none;
+    background-color: #366;
+}
+
+nav li.cinco {
+    position: relative;
+    float: left;
+    list-style-type: none;
+    background-color: #093;
+    width: 16.5%;
+}
+
+nav li.cinco a{
+    text-align: center;
+    color:#ffffff;
+}
+
+nav ul ul a.cinco{
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+    background-color: #093;
+}
+
+nav li.ultimocinco a {
+    padding: 10px;
+    border-right: none;
+    background-color: #093;
+}
+
+nav ul ul a.cinco:hover {
+    background-color: #063;
+}
+
+nav li.ultimocinco:hover a {
+    border-right: none;
+    background-color: #063;
+}
+
+nav li.seis {
+    position: relative;
+    float: left;
+    list-style-type: none;
+    background-color: #690;
+    width: 16.5%;
+}
+
+nav li.seis a{
+    text-align: center;
+    color:#ffffff;
+}
+
+nav ul ul a.seis{
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+    background-color: #690;
+    text-align: center;
+    color:#ffffff;
+}
+
+nav li.ultimoseis a {
+    padding: 10px;
+    border-right: none;
+    background-color: #690;
+    text-align: center;
+    color:#ffffff;
+}
+
+nav ul ul a.seis:hover {
+    background-color: #006600;
+    text-align: center;
+    color:#ffffff;
+}
+
+nav li.ultimoseis:hover a {
+    border-right: none;
+    background-color: #660;
+    text-align: center;
+    color:#ffffff;
+}
+
+/*Se definen los atributos de los enlaces que se encuentran dentro de la lista*/
+nav li a {
+    display: block;
+    padding: 10px 20px;
+    color: #000;
+    text-align: left;
+    text-decoration: none;
+}
+
+/*Se define el comportamiento del enlace una vez que es enfocado o se hace clic en él*/
+nav li a:focus {
+    outline: none;
+    text-decoration: inherit;
+}
+
+/*Se definen los atributos para el primer elemento de la lista desplegable del menú*/
+nav li:first-child a {
+    border-left: none;
+}
+
+/*Se definen los atributos para el último elemento de la lista desplegable del menú*/
+nav li.ultimo a {
+    border-right: none;
+}
+
+/*Se define la manera en la que se desplegarán los elementos del menú al pasar el mouse sobre estos*/
+nav li:hover ul {
+    display: block;
+}
+
+/*Se definen los atributos de la lista no ordenada dentro de la lista no ordenada*/
+nav ul ul {
+    display: none;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+/*Se definen los atributos de los elementos que lleva la lista no ordenada*/
+nav ul ul li {
+    float: none;
+}
+
+/*Se definen los atributos de los enlaces de los elementos que se incluyen dentro de la lista no ordenada*/
+nav ul ul a{
+    padding: 5px 10px;
+    border-left: none;
+    border-right: none;
+    transition: .4s;
+}
+
+
+/*Se definen los atributos de los enlaces al pasar el mouse por encima de estos*/
+nav ul ul a:hover {
+    background-color: white;
+}
+
+aside{
+    width: 30%;
+    float: left;
+    background-color: #EEEEEE;
+    margin-right: 2px;
+    margin-left: 2px;
+    box-shadow: 3px 2px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+section{
+    width: auto;
+    overflow: hidden;
+}
+
+section div.sec{
+    text-align: left;
+    height:17.9em; 
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-top: 5px;    
+    border-color: #fff;
+    background-color: #EEE;
+    box-shadow: 3px 2px 10px;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    color: green;
+    position: inherit;
+    background-color: #099; 
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+h1{
+    text-align: center;
+    border-style: solid none solid none;
+    border-width: 1px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+p{
+    text-align: center;
+}
+
+p.arti{
+    text-align: center; 
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    text-align: justify;
+}
+
+p.foot{
+    color: #fff;
+}
+
+section{
+    box-shadow: 3px 2px 10px;
+}
+
+/* Declaraciones id */
+#letras{
+    float: left;
+    margin-left: 2px;
+    left: 50%;
+}
+
+#logo{
+    float: right;
+    margin-top: 25px;
+    top:50%;
+    margin-right: 30px;
+    right: 50%;
+}
+
+#nolink{
+    color: #fff;
+    margin: 0px;
+    padding: 10px;
+}

@@ -1,0 +1,5 @@
+RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ /letras_jur/index.php/$1 [L]
+    ErrorDocument 404 /letras_jur/index.php
