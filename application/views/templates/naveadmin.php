@@ -2,7 +2,7 @@
 <html lang="es">
 	<head>
 		<title>Letras jur&iacute;dicas</title>
-		<meta http-equiv="Content-Type" content="text/html; charset = ISO-8859-1">
+		<meta http-equiv="Content-Type" content="text/html; charset = utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="<?=base_url('')."assets/css/bootstrap.css"?>">

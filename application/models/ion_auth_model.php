@@ -1454,7 +1454,7 @@ class Ion_auth_model extends CI_Model
 				}
 				else {
 					$group = $this->group($group_id)->result();
-					$group_name = $group[0]->name;
+					$group_name = $group[0]->nombre;
 					$this->_cache_groups[$group_id] = $group_name;
 				}
 				$this->_cache_user_in_group[$user_id][$group_id] = $group_name;

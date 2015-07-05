@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="<?=base_url('')."assets/css/bootstrap.css"?>">
-  </head>
+    </head>
   <body class="page">
-      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <!--Configuracion para dispositivos moviles--> 
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -24,17 +24,39 @@
       <!--Agrupacion de elementos para ocultarlos al minimizar la barra-->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
-          <li class="active">
+          <li>
             <a href="<?php echo site_url('home')?>" title="Inicio">Inicio</a>
           </li>   
-          <li class="dropdown">
+          <li>
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Publicaciones">Publicaciones<b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li>
-                <a title="Revistas" href="<?php echo site_url('revistas')?>">Revistas</a>
+            <ul class="dropdown-menu multi-level">
+              <li class="dropdown-submenu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="revistas">Revistas</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="<?php echo site_url('revistas')?>">Ver revistas</a>
+                  </li>
+                  <li>
+                    <a href="<?php echo site_url('crearrevista')?>">Crear revista</a>
+                  </li>
+                  <li>
+                    <a href="<?php echo site_url('editarrevista')?>">Modificar revistas</a>
+                  </li>
+                </ul>
               </li>
-              <li>
-                <a href="<?php echo site_url('libros')?>"  title="Libros">Libros</a>
+              <li class="dropdown-submenu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Libros">Libros</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="<?php echo site_url('libros')?>">Ver libros</a>
+                  </li>
+                  <li>
+                    <a href="<?php echo site_url('libros')?>">Crear libro</a>
+                  </li>
+                  <li>
+                    <a href="<?php echo site_url('libros')?>">Modificar libros</a>
+                  </li>
+                </ul>
               </li>
               <li>
                 <a href="http://revistas.uv.mx/index.php/letrasjuridicas/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" title="Cat&aacute;logos">Cat&aacute;logos UV</a>
@@ -56,10 +78,13 @@
               <li><a href="http://www.uv.mx/cedegs/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" title="CEDEGS">CEDEGS</a></li>
             </ul>
           </li>
+          <li>
+            <a href="<?php echo site_url('auth/index')?>">Panel de Administracion</a>
+          </li>
         </ul>
         <ul class="nav navbar-nav navbar-left">
           <li>
-            <a href="<?php echo site_url('/auth/login')?>" > Ingresar</a>
+            <a href="<?php echo site_url('/auth/logout')?>" > Salir</a>
           </li>
         </ul>
         <!--Barra de busqueda-->
@@ -69,7 +94,6 @@
           </div>
           <button type="submit" class="btn btn-default">Enviar</button>
         </form>
-        
       </div>
     </nav>
     <h1><?php echo lang('login_heading');?></h1>
