@@ -120,7 +120,7 @@ ENGINE = InnoDB
 AUTO_INCREMENT = 3
 DEFAULT CHARACTER SET = utf8;
 
-INSERT INTO `groups` (`id`, `name`, `description`) VALUES
+INSERT INTO `groups` (`id`, `nombre`, `descripcion`) VALUES
      (1,'admin','Administrator'),
      (2,'members','General User');
 
@@ -145,7 +145,7 @@ CREATE TABLE IF NOT EXISTS `letras_juridicas`.`users` (
   `id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
   `ip_address` VARCHAR(15) NOT NULL,
   `username` VARCHAR(30) NOT NULL,
-  `password` VARCHAR(20) NOT NULL,
+  `password` VARCHAR(100) NOT NULL,
   `salt` VARCHAR(255) NULL,
   `email` VARCHAR(50) NOT NULL,
   `activation_code` VARCHAR(40) NULL DEFAULT NULL,
