@@ -1,4 +1,14 @@
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<title>Letras jur&iacute;dicas</title>
+		<meta http-equiv="Content-Type" content="text/html; charset = ISO-8859-1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="<?=base_url('')."assets/css/bootstrap.css"?>">
+		</head>
+	<body class="page">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<!--Configuracion para dispositivos moviles--> 
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -25,9 +35,6 @@
 							</li>
 							<li>
 								<a href="<?php echo site_url('libros')?>"  title="Libros">Libros</a>
-							</li>
-							<li>
-								<a href="<?php echo site_url('entrevistas')?>"  title="Podcast">Entrevistas (Audio)</a>
 							</li>
 							<li>
 								<a href="http://revistas.uv.mx/index.php/letrasjuridicas/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" title="Cat&aacute;logos">Cat&aacute;logos UV</a>
@@ -62,5 +69,6 @@
 					</div>
 					<button type="submit" class="btn btn-default">Enviar</button>
 				</form>
+				
 			</div>
 		</nav>

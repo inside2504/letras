@@ -37,9 +37,6 @@
                 <a href="<?php echo site_url('libros')?>"  title="Libros">Libros</a>
               </li>
               <li>
-                <a href="<?php echo site_url('entrevistas')?>"  title="Podcast">Entrevistas (Audio)</a>
-              </li>
-              <li>
                 <a href="http://revistas.uv.mx/index.php/letrasjuridicas/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" title="Cat&aacute;logos">Cat&aacute;logos UV</a>
               </li>         
             </ul>
@@ -60,6 +57,11 @@
             </ul>
           </li>
         </ul>
+        <ul class="nav navbar-nav navbar-left">
+          <li>
+            <a href="<?php echo site_url('/auth/login')?>" > Ingresar</a>
+          </li>
+        </ul>
         <!--Barra de busqueda-->
         <form class="navbar-form navbar-right" role="search">
           <div class="form-group">
@@ -67,11 +69,7 @@
           </div>
           <button type="submit" class="btn btn-default">Enviar</button>
         </form>
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a href="<?php echo site_url('/auth/login')?>" > Ingresar</a>
-          </li>
-        </ul>
+        
       </div>
     </nav>
     <h1><?php echo lang('login_heading');?></h1>
