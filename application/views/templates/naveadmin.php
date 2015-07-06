@@ -25,13 +25,13 @@
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
 					<li>
-						<a href="<?php echo site_url('home')?>" title="Inicio">Inicio</a>
+						<a href="<?php echo site_url('home')?>">Inicio</a>
 					</li>		
 					<li>
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Publicaciones">Publicaciones<b class="caret"></b></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Publicaciones<b class="caret"></b></a>
 						<ul class="dropdown-menu multi-level">
 							<li class="dropdown-submenu">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" title="revistas">Revistas</a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Revistas</a>
 								<ul class="dropdown-menu">
 									<li>
 										<a href="<?php echo site_url('revistas')?>">Ver revistas</a>
@@ -45,7 +45,7 @@
 								</ul>
 							</li>
 							<li class="dropdown-submenu">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Libros">Libros</a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Libros</a>
 								<ul class="dropdown-menu">
 									<li>
 										<a href="<?php echo site_url('libros')?>">Ver libros</a>
@@ -64,17 +64,16 @@
 						</ul>
 					</li>
 					<li>
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Reglamentaci&oacute;n">Reglamentaci&oacute;n<b class="caret"></b></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Reglamentaci&oacute;n<b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="<?php echo site_url('lineamientos')?>"  title="Lineamiento">Lineamientos</a></li>
-							<li><a href="<?php echo site_url('reglamentacion')?>"  title="Reglamento">Reglamentaci&oacute;n</a></li>
+							<li><a href="<?php echo site_url('lineamientos')?>">Lineamientos</a></li>
+							<li><a href="<?php echo site_url('reglamentacion')?>">Reglamentaci&oacute;n</a></li>
 						</ul>
 					</li>
 					<li>
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Contacto">Contacto<b class="caret"></b></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Contacto<b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="<?php echo site_url('correos')?>" title="Correo">Correos</a></li>
-							<li><a href="<?php echo site_url('telefonos')?>"  title="Tel&eacute;fono">Tel&eacute;fonos</a></li>
+							<li><a href="<?php echo site_url('contacto')?>">Letras Jur&iacute;dicas</a></li>
 							<li><a href="http://www.uv.mx/cedegs/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" title="CEDEGS">CEDEGS</a></li>
 						</ul>
 					</li>

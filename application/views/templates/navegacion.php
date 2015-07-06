@@ -25,35 +25,34 @@
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
 					<li class="active">
-						<a href="<?php echo site_url('home')?>" title="Inicio">Inicio</a>
+						<a href="<?php echo site_url('home')?>">Inicio</a>
 					</li>		
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Publicaciones">Publicaciones<b class="caret"></b></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Publicaciones<b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li>
-								<a title="Revistas" href="<?php echo site_url('revistas')?>">Revistas</a>
+								<a ="Revistas" href="<?php echo site_url('revistas')?>">Revistas</a>
 							</li>
 							<li>
-								<a href="<?php echo site_url('libros')?>"  title="Libros">Libros</a>
+								<a href="<?php echo site_url('libros')?>">Libros</a>
 							</li>
 							<li>
-								<a href="http://revistas.uv.mx/index.php/letrasjuridicas/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" title="Cat&aacute;logos">Cat&aacute;logos UV</a>
+								<a href="http://revistas.uv.mx/index.php/letrasjuridicas/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" ="Cat&aacute;logos">Cat&aacute;logos UV</a>
 							</li>					
 						</ul>
 					</li>
 					<li>
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Reglamentaci&oacute;n">Reglamentaci&oacute;n<b class="caret"></b></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Reglamentaci&oacute;n<b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="<?php echo site_url('lineamientos')?>"  title="Lineamiento">Lineamientos</a></li>
-							<li><a href="<?php echo site_url('reglamentacion')?>"  title="Reglamento">Reglamentaci&oacute;n</a></li>
+							<li><a href="<?php echo site_url('lineamientos')?>">Lineamientos</a></li>
+							<li><a href="<?php echo site_url('reglamentacion')?>">Reglamentaci&oacute;n</a></li>
 						</ul>
 					</li>
 					<li>
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Contacto">Contacto<b class="caret"></b></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Contacto<b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="<?php echo site_url('correos')?>" title="Correo">Correos</a></li>
-							<li><a href="<?php echo site_url('telefonos')?>"  title="Tel&eacute;fono">Tel&eacute;fonos</a></li>
-							<li><a href="http://www.uv.mx/cedegs/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" title="CEDEGS">CEDEGS</a></li>
+							<li><a href="<?php echo site_url('contacto')?>">Letras Jur&iacute;dicas</a></li>
+							<li><a href="http://www.uv.mx/cedegs/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" ="CEDEGS">CEDEGS</a></li>
 						</ul>
 					</li>
 				</ul>
