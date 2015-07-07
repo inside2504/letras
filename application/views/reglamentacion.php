@@ -1,7 +1,7 @@
 
-			<section>
+			<div class='cascaron'>
 				<div id="regla">
-					<h1>Reglamento</h1>
+					<h3>Reglamento</h1>
 				</div>
-			</section>
+			</div>
 			

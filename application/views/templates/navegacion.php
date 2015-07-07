@@ -37,7 +37,7 @@
 								<a href="<?php echo site_url('libros')?>">Libros</a>
 							</li>
 							<li>
-								<a href="http://revistas.uv.mx/index.php/letrasjuridicas/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" ="Cat&aacute;logos">Cat&aacute;logos UV</a>
+								<a href="http://revistas.uv.mx/index.php/letrasjuridicas/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Cat&aacute;logos UV</a>
 							</li>					
 						</ul>
 					</li>
@@ -52,7 +52,7 @@
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Contacto<b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li><a href="<?php echo site_url('contacto')?>">Letras Jur&iacute;dicas</a></li>
-							<li><a href="http://www.uv.mx/cedegs/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" ="CEDEGS">CEDEGS</a></li>
+							<li><a href="http://www.uv.mx/cedegs/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">CEDEGS</a></li>
 						</ul>
 					</li>
 				</ul>

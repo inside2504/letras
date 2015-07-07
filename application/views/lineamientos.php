@@ -1,6 +1,5 @@
-
-			<aside>
+		<div class='cascaron'>
 			<div id="linea">
-				<h1>Lineamientos</h1>
+				<h3>Lineamientos</h1>
 			</div>
-			</aside>
+		</div>

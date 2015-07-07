@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="<?=base_url('')."assets/css/bootstrap.css"?>">
 		</head>
 	<body class="page">
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<!--Configuracion para dispositivos moviles--> 
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">

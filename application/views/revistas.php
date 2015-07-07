@@ -1,7 +1,7 @@
 
-		<aside>
+		<div class='cascaron'>
 			<div id="revistas">
-				<h1>Revistas</h1>
+				<h3>Revistas</h1>
 			</div>
-		</aside>
+		</div>
 		

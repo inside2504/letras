@@ -1,6 +1,5 @@
-
-			<aside>
+		<div class='cascaron'>
 			<div id="electronicos">
-				<h1>Libros Electr&oacute;nicos</h1>
+				<h3>Libros Electr&oacute;nicos</h1>
 			</div>
-			</aside>
+		</div>

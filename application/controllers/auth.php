@@ -668,7 +668,7 @@ class Auth extends CI_Controller {
 			'type' => 'password'
 		);
 
-		$this->_render_page('templater/naveadmin');
+		$this->_render_page('templates/naveadmin');
 		$this->_render_page('auth/edit_user', $this->data);
 		$this->_render_page('templates/footer');
 	}

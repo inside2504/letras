@@ -235,6 +235,15 @@ div.carrusel{
   line-height: 1.15em;
   word-wrap:break-word;
 }
+.cascaron{
+  text-align: center;
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  border-top:1px solid #CCC;
+  padding: .5%;
+  border-radius: 10px;
+}
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
@@ -1324,6 +1333,10 @@ h1,
 .h1 {
   font-size: 36px;
 }
+.titpagina{
+  text-align: center;
+  padding: .1%;
+}
 h2,
 .h2 {
   font-size: 30px;
@@ -1332,16 +1345,35 @@ h3,
 .h3 {
   font-size: 24px;
 }
-h4,
+h4{
+  font-size: 18px;
+}
 .alineacion{
   text-align: center;
-  font-size: 18px;
   padding: 15px 0 15px 0;
   border-top: 1px solid #CCC;
   border-left: 1px solid #CCC;
   border-right: 1px solid #CCC;
   border-bottom: 1px solid #CCC;
   border-radius: 10px;
+}
+.box{
+  text-align: center;
+  padding: 15px 0 15px 0;
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+}
+.log{
+  text-align: center;
+  padding: 15px 0 15px 0;
+  border-bottom: 1px solid #CCC;
+}
+.cor{
+  text-align: center;
+  padding: 15px 0 15px 0;
+}
+.divisor{
+  border-bottom: 1px solid #CCC;
 }
 .h4{
   font-size: 18px;
@@ -1367,6 +1399,9 @@ h6,
 p {
   text-align: justify;
   margin: 0 0 10px;
+}
+.cent{
+  text-align: center;
 }
 p.lado{
   font-size: 13px;
@@ -2340,7 +2375,7 @@ caption {
   text-align: left;
 }
 th {
-  text-align: left;
+  text-align: center;
 }
 .table {
   width: 100%;
