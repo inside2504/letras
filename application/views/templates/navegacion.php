@@ -6,9 +6,10 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="<?=base_url('')."assets/css/bootstrap.css"?>">
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,700italic' rel='stylesheet' type='text/css'>
 		</head>
 	<body class="page">
-			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 			<!--Configuracion para dispositivos moviles--> 
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -17,14 +18,13 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="<?php echo site_url('home')?>">
-					<img height="50px;" width="200px;" src="<?=base_url('')."/assets/logos/logoletrassmall.png"?>">
+				<a class="navbar-brand" href="<?php echo site_url('home')?>">Letras Jur&iacute;dicas
 				</a>
 			</div>
 			<!--Agrupacion de elementos para ocultarlos al minimizar la barra-->
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
-					<li class="active">
+					<li >
 						<a href="<?php echo site_url('home')?>">Inicio</a>
 					</li>		
 					<li class="dropdown">
@@ -42,10 +42,10 @@
 						</ul>
 					</li>
 					<li>
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Reglamentaci&oacute;n<b class="caret"></b></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Lineamientos<b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="<?php echo site_url('lineamientos')?>">Lineamientos</a></li>
-							<li><a href="<?php echo site_url('reglamentacion')?>">Reglamentaci&oacute;n</a></li>
+							<li><a href="<?php echo site_url('lineamientos')?>">Editoriales</a></li>
+							<li><a href="<?php echo site_url('reglamentacion')?>">Para autores</a></li>
 						</ul>
 					</li>
 					<li>
@@ -56,18 +56,11 @@
 						</ul>
 					</li>
 				</ul>
-				<ul class="nav navbar-nav navbar-left">
+				<ul class="nav navbar-nav navbar-right">
 					<li>
 						<a href="<?php echo site_url('/auth/login')?>" > Ingresar</a>
 					</li>
 				</ul>
-				<!--Barra de busqueda-->
-				<form class="navbar-form navbar-right" role="search">
-					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Buscar">
-					</div>
-					<button type="submit" class="btn btn-default">Enviar</button>
-				</form>
-				
+				<!--Barra de busqueda-->			
 			</div>
 		</nav>

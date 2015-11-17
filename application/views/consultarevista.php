@@ -1,0 +1,1 @@
+<p>Consulta de revistas</p>
